@@ -830,6 +830,7 @@ footer .item + .item {
   left: 50%;
   width: 528px;
   height: 581px;
+  padding: 40px;
   background-color: #3f51b5;
   transform: translate(-50%, -50%);
   background-color: var(--interactive-text-color);
@@ -838,6 +839,9 @@ footer .item + .item {
   overflow-y: scroll;
 }
 
+.contact-form {
+  flex-direction: column;
+}
 
 
 .contact-form-mesage {
